@@ -68,7 +68,13 @@
     text-decoration: none;
     padding: 0 1.5rem;
     margin-left: -2rem;
+    margin-right: 0.5rem 5rem auto;
     height: 100%;
+}
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button {
     color: #A8A7A7;
