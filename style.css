@@ -54,6 +54,8 @@
     align-items: center;
     list-style-type: disc;
     text-align: center;
+
+
 }
 
 .navbar__item {
@@ -87,4 +89,42 @@
     border-radius: 15px;
     text-decoration: none;
     color: #000000;
+}
+
+.button:hover{
+    background: #474747
+    transition: all 0.3s ease:fixed
+
+}
+.navbar__links:hover{
+    background: white;
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width: 960px){
+    .navbar__container{
+        display:flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index:1;
+        max-width:1300px;
+        padding:0;
+    }
+    .navbar__menu{
+        display:grid;
+        grid-template-columns: auto;
+        margin:0;
+        position: absolute;
+        top: -1000px;
+        opacity:1;
+        transition:all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+    }
+    .navbar__menu.active{
+        background:#363636;
+        top: 100%;
+        opacity:1;
+        transition: all 0.5s ease;
+    }
 }
