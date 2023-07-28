@@ -64,6 +64,9 @@
 
 .navbar__item {
   height: 80px;
+  align-item:left;
+  align-text:left;
+  margin-left: 0.5 rem;
 }
 
 .navbar__links {
