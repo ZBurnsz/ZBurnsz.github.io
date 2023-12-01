@@ -92,7 +92,6 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-      target:'_blank',
 
     },
     {
