@@ -28,7 +28,6 @@ import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/PFP.jpg';
 import testimonialImage from '../images/testimonial.webp';
 
-
 import {
   About,
   ContactSection,
@@ -81,7 +80,8 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time you can find me{' '}
-        <strong className="text-stone-100">working out(lifting/running), studying, </strong><strong className="text-stone-100"></strong>, or relaxing{' '}
+        <strong className="text-stone-100">working out(lifting/running), studying, </strong>
+        <strong className="text-stone-100"></strong>, or relaxing{' '}
         <strong className="text-stone-100">playing video games, watching videos/netflix</strong>.
       </p>
     </>
@@ -92,7 +92,6 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-
     },
     {
       href: `#${SectionId.Contact}`,
@@ -288,8 +287,8 @@ export const education: TimelineItem[] = [
     content: (
       <p>
         I have done some projects in <strong className="text-stone-100, color=grey">Python, C and C++</strong>,I
-        predominantly know C and C++ better but I have also dabbled in some python. I mainly know C and C++ from classes I have taken
-        in college. I am also learning some Next.js while making/editing this website template. 
+        predominantly know C and C++ better but I have also dabbled in some python. I mainly know C and C++ from classes
+        I have taken in college. I am also learning some Next.js while making/editing this website template.
       </p>
     ),
   },
@@ -383,5 +382,5 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'}, //TODO
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/zach-burns-2555b5225/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/zachary.burns_/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},     //TODO
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'}, //TODO
 ];
