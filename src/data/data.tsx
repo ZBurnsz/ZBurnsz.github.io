@@ -88,7 +88,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/resume.pdf', //target="_blank"  ,
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -354,23 +354,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'Zachary@burnskc.com',
+      href: 'mailto:Zachary@burnskc.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Çolumbia Missouri',
+      href: 'https://www.google.com/maps/place/Columbia,+MO/@38.9465985,-92.41324,12z/data=!3m1!4b1!4m6!3m5!1s0x87dcabf3bb8182c9:0xa011692dbabd6f20!8m2!3d38.9517053!4d-92.3340724!16zL20vMDF6MWM?entry=ttu',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@Zachary.burns_',
+      href: 'https://www.instagram.com/Zachary.burns_/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'ZBurnsz',
+      href: 'https://github.com/ZBurnsz',
     },
   ],
 };
